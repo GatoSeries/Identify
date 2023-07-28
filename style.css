@@ -1,0 +1,33 @@
+body {
+    background-color: bisque;
+    font-family: 'Caveat', cursive;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+    background: linear-gradient(#707070 50%, #27ae50 100%);
+    margin-top: 30px;
+    text-align: center;
+}
+.copyright-foot{
+    position: fixed;
+    color: darkslategrey;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background: linear-gradient(#1cb9b9 50%, #27ae50 100%);
+    line-height: 2;
+    text-shadow: 5px 5px 5px;
+    text-align: left;
+}
+canvas{
+    animation-name: marcos;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes marcos {
+    from{
+        box-shadow: 1px 1px 38px gold;
+    }
+    to {
+    box-shadow: 1px 1px 38px yellow;
+    }
+}
